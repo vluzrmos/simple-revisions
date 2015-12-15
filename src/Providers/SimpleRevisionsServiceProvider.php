@@ -4,7 +4,7 @@ namespace Vluzrmos\SimpleRevisions;
 
 use Illuminate\Support\ServiceProvider;
 
-class RevisionableServiceProvider extends ServiceProvider
+class SimpleRevisionsServiceProvider extends ServiceProvider
 {
 
     /**
