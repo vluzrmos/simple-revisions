@@ -21,3 +21,22 @@ And then run your migrations:
 
 > **Note:** Be sure that exists an users table (that table name is in your `config/auth.php`).
 
+## Usage
+
+The model you want to log revisions should be like that:
+
+```php
+
+use Illuminate\Database\Eloquent\Model;
+use Vluzrmos\SimpleRevisions\Contracts\Revisionable;
+use Vluzrmos\SimpleRevisions\Eloquent\RevisionableTrait;
+
+class MyModel extends Model implements Revisionable
+{
+   use RevisionableTrait;
+}
+
+```
+
+And then, when you save, update or delete an instance of your model, it should be revisioned!
+
