@@ -12,5 +12,10 @@
             "name": "Vagner do Carmo",
             "email": "vluzrmos@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vluzrmos\\SimpleRevisions\\": "src/"
+        }
+    }
 }
