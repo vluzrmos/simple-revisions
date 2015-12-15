@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\SimpleRevisions\Revisionable;
+namespace Vluzrmos\SimpleRevisions\Eloquent;
 
 use Vluzrmos\SimpleRevisions\Contracts\Revisionable;
 

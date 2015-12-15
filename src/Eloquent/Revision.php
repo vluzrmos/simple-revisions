@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\SimpleRevisions\Revisionable;
+namespace Vluzrmos\SimpleRevisions\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
