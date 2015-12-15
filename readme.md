@@ -12,7 +12,7 @@ put that service provider in your `config/app.php` file:
     
 Run the artisan command to add the package migrations to your database migrations path: 
 
-    php artisan vendor publish --provider=Vluzrmos\SimpleRevisions\Providers\SimpleRevisionsServiceProvider
+    php artisan vendor:publish --provider=Vluzrmos\SimpleRevisions\Providers\SimpleRevisionsServiceProvider
 
 And then run your migrations:
 
