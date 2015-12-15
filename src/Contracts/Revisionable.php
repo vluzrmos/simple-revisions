@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\SimpleRevisions\Contracts\Revisionable;
+namespace Vluzrmos\SimpleRevisions\Contracts;
 
 interface Revisionable
 {

@@ -2,8 +2,7 @@
 
 namespace Vluzrmos\SimpleRevisions\Revisionable;
 
-
-use DoeApp\Contracts\Revisionable\Revisionable;
+use Vluzrmos\SimpleRevisions\Contracts\Revisionable;
 
 class RevisionableObserver
 {
