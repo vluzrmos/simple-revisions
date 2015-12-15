@@ -19,5 +19,5 @@ And then run your migrations:
     php artisan migrate
 
 
-> Note: Be sure that exists an users table (that table name is in your `config/auth.php`).
+> **Note:** Be sure that exists an users table (that table name is in your `config/auth.php`).
 
