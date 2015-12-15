@@ -1,6 +1,7 @@
 {
     "name": "vluzrmos/simple-revisions",
     "description": "An Eloquent simple revisions package.",
+    "keywords": ["eloquent", "revisions", "laravel", "database"],
     "require": {
         "illuminate/support": "~5.0",
         "illuminate/database": "~5.0"
