@@ -1,0 +1,15 @@
+{
+    "name": "vluzrmos/simple-revisions",
+    "description": "An Eloquent simple revisions package.",
+    "require": {
+        "illuminate/support": "~5.0",
+        "illuminate/database": "~5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vagner do Carmo",
+            "email": "vluzrmos@gmail.com"
+        }
+    ]
+}
