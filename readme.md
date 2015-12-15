@@ -1,8 +1,8 @@
-## Simple Revisions
+# Simple Revisions
 
 That package listen for events in yours eloquent models and store the data that is saving/updating/creating.
 
-# Installation
+## Installation
 
     composer require vluzroms/simple-revisions
 
@@ -19,5 +19,5 @@ And then run your migrations:
     php artisan migrate
 
 
-> Note: Be sure that exists an users table.
+> Note: Be sure that exists an users table (that table name is in your `config/auth.php`).
 
