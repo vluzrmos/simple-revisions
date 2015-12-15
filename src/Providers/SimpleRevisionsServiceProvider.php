@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\SimpleRevisions;
+namespace Vluzrmos\SimpleRevisions\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
