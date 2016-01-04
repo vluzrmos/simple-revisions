@@ -14,8 +14,11 @@ class SimpleRevisionsServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $basePath = __DIR__.'/../..';
+
         $this->publishes([
-            __DIR__.'/../../migrations' => database_path('migrations')
+            $basePath.'/migrations' => database_path('migrations'),
+            $basePath.'/config/revisions.php' => config_path('revisions.php')
         ]);
     }
 }

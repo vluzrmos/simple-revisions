@@ -2,9 +2,19 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreateRevisionsTable extends Migration
 {
+    protected $table;
+
+    public function __construct()
+    {
+        $this->connection = config('revisions.connection');
+
+        $this->table = config('revisions.table', 'revisions');
+    }
+
     /**
      * Run the migrations.
      *
@@ -12,7 +22,7 @@ class CreateRevisionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('revisions', function (Blueprint $table) {
+        Schema::create($this->table, function (Blueprint $table) {
             $table->increments('id');
 
             $table->longText('data')->nullable();
@@ -35,6 +45,6 @@ class CreateRevisionsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('revisions');
+        Schema::drop($this->table);
     }
 }
