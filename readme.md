@@ -4,7 +4,7 @@ That package listen for events in yours eloquent models and store the data that 
 
 ## Installation
 
-    composer require vluzroms/simple-revisions
+    composer require vluzrmos/simple-revisions
 
 put that service provider in your `config/app.php` file:
 
