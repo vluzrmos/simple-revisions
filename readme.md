@@ -1,5 +1,7 @@
 # Simple Revisions
 
+[![Latest Stable Version](https://poser.pugx.org/vluzrmos/simple-revisions/v/stable)](https://packagist.org/packages/vluzrmos/simple-revisions) [![Total Downloads](https://poser.pugx.org/vluzrmos/simple-revisions/downloads)](https://packagist.org/packages/vluzrmos/simple-revisions) [![Latest Unstable Version](https://poser.pugx.org/vluzrmos/simple-revisions/v/unstable)](https://packagist.org/packages/vluzrmos/simple-revisions) [![License](https://poser.pugx.org/vluzrmos/simple-revisions/license)](https://packagist.org/packages/vluzrmos/simple-revisions)
+
 That package listen for events in yours eloquent models and store the data that is saving/updating/creating.
 
 ## Installation
